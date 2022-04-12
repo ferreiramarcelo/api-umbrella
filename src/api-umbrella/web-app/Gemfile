@@ -80,7 +80,7 @@ gem "daemons", "~> 1.2.4"
 # nokogiri is a soft-dependency for premailer-rails so we need to explicitly
 # include it here.
 gem "premailer-rails", "~> 1.9.5"
-gem "nokogiri", "~> 1.7.0"
+gem "nokogiri", "~> 1.13.4"
 
 # Localization in the admin based on the Accept-Language header
 gem "http_accept_language", "~> 2.1.0"
@@ -107,9 +107,9 @@ gem "rails_stdout_logging", :git => "https://github.com/heroku/rails_stdout_logg
 gem "simple_form", "~> 3.4.0"
 
 # Login stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.6"
 gem "bootstrap-sass", "~> 3.3.7"
-gem "font-awesome-rails", "~> 4.7.0"
+gem "font-awesome-rails", "~> 4.7.0", ">= 4.7.0.1"
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
