@@ -48,7 +48,7 @@ gem "rails_compatible_cookies_utils", "~> 0.1.0"
 gem "addressable", "~> 2.5.0"
 
 # Browser/JavaScript integration tests
-gem "capybara", "~> 2.12.0"
+gem "capybara", "~> 2.12.1"
 # Use fork to fix failure messages:
 # https://github.com/wojtekmach/minitest-capybara/pull/17
 gem "minitest-capybara", "~> 0.8.2", :git => "https://github.com/GUI/minitest-capybara.git"
@@ -60,7 +60,7 @@ gem "poltergeist", "~> 1.13.0"
 gem "capybara-screenshot", "~> 1.0.14"
 
 # HTML or XML parsing
-gem "nokogiri", "~> 1.7.0"
+gem "nokogiri", "~> 1.13.4"
 
 # Useful additions
 gem "activesupport", "~> 5.0.1"
