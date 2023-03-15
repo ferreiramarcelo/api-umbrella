@@ -31,7 +31,7 @@ gem "multi_json", "~> 1.12.1"
 gem "oj", "~> 2.18.1"
 
 # Database libraries
-gem "mongoid", "~> 6.1.0"
+gem "mongoid", "~> 7.0.12"
 gem "elasticsearch", "~> 2.0.1"
 gem "elasticsearch-persistence", "~> 0.1.9"
 
@@ -48,7 +48,7 @@ gem "rails_compatible_cookies_utils", "~> 0.1.0"
 gem "addressable", "~> 2.5.0"
 
 # Browser/JavaScript integration tests
-gem "capybara", "~> 2.12.0"
+gem "capybara", "~> 2.12.1"
 # Use fork to fix failure messages:
 # https://github.com/wojtekmach/minitest-capybara/pull/17
 gem "minitest-capybara", "~> 0.8.2", :git => "https://github.com/GUI/minitest-capybara.git"
@@ -63,7 +63,7 @@ gem "capybara-screenshot", "~> 1.0.14"
 gem "nokogiri", "~> 1.7.0"
 
 # Useful additions
-gem "activesupport", "~> 5.0.1"
+gem "activesupport", "~> 6.1.7", ">= 6.1.7.3"
 
 # Path-based setting of hashes
 gem "lazyhash", "~> 0.1.1"
