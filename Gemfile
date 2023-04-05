@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rake", "~> 12.0.0"
+gem "rake", "~> 12.3.3"
 
 # Tests
 gem "minitest", "~> 5.10.1"
@@ -18,7 +18,7 @@ gem "minitest-hooks", "~> 1.4.0"
 gem "minitest-ci", "~> 3.1.0"
 
 # Ruby lint/style checker
-gem "rubocop", "~> 0.47.1", :require => false
+gem "rubocop", "~> 0.49.0", :require => false
 
 # Running background processes
 gem "childprocess", "~> 0.6.1"
@@ -31,7 +31,7 @@ gem "multi_json", "~> 1.12.1"
 gem "oj", "~> 2.18.1"
 
 # Database libraries
-gem "mongoid", "~> 6.1.0"
+gem "mongoid", "~> 7.0.12"
 gem "elasticsearch", "~> 2.0.1"
 gem "elasticsearch-persistence", "~> 0.1.9"
 
@@ -45,10 +45,10 @@ gem "database_cleaner", "~> 1.5.3"
 gem "rails_compatible_cookies_utils", "~> 0.1.0"
 
 # URL parsing/generation
-gem "addressable", "~> 2.5.0"
+gem "addressable", "~> 2.8.0"
 
 # Browser/JavaScript integration tests
-gem "capybara", "~> 2.12.0"
+gem "capybara", "~> 2.12.1"
 # Use fork to fix failure messages:
 # https://github.com/wojtekmach/minitest-capybara/pull/17
 gem "minitest-capybara", "~> 0.8.2", :git => "https://github.com/GUI/minitest-capybara.git"
@@ -60,10 +60,10 @@ gem "poltergeist", "~> 1.13.0"
 gem "capybara-screenshot", "~> 1.0.14"
 
 # HTML or XML parsing
-gem "nokogiri", "~> 1.7.0"
+gem "nokogiri", "~> 1.13.9"
 
 # Useful additions
-gem "activesupport", "~> 5.0.1"
+gem "activesupport", "~> 6.1.7", ">= 6.1.7.3"
 
 # Path-based setting of hashes
 gem "lazyhash", "~> 0.1.1"
