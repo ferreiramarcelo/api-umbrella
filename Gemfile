@@ -60,7 +60,7 @@ gem "poltergeist", "~> 1.13.0"
 gem "capybara-screenshot", "~> 1.0.14"
 
 # HTML or XML parsing
-gem "nokogiri", "~> 1.7.0"
+gem "nokogiri", "~> 1.16.5"
 
 # Useful additions
 gem "activesupport", "~> 5.0.1"
