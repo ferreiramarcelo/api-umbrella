@@ -37,7 +37,7 @@ gem "mongoid_delorean", "~> 1.3.0"
 gem "mongoid-embedded-errors", "~> 2.1.1"
 
 # Data migrations
-gem "mongoid_rails_migrations", "~> 1.1.0"
+gem "mongoid_rails_migrations", "~> 1.1.1"
 
 # Rails cache store using mongo.
 #
