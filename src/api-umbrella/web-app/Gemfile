@@ -92,7 +92,7 @@ gem "kramdown", "~> 1.13.2"
 gem "lucene_query_parser", :git => "https://github.com/zerowidth/lucene_query_parser.git"
 
 # Thread-safe per-request variables.
-gem "request_store", "~> 1.3.2"
+gem "request_store", "~> 1.4.0"
 
 # Share i18n data with the admin-ui client-side app.
 gem "i18n-js", ">= 3.0.0.rc15"
