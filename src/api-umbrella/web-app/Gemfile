@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 4.2.7.1"
+gem "rails", "~> 7.0.0.0"
 
 # Rails app server
 gem "puma", "~> 3.7.0"
@@ -107,7 +107,7 @@ gem "rails_stdout_logging", :git => "https://github.com/heroku/rails_stdout_logg
 gem "simple_form", "~> 3.4.0"
 
 # Login stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 6.0", ">= 6.0.0"
 gem "bootstrap-sass", "~> 3.3.7"
 gem "font-awesome-rails", "~> 4.7.0"
 
