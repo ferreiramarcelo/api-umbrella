@@ -24,19 +24,19 @@ gem "rubocop", "~> 0.47.1", :require => false
 gem "childprocess", "~> 0.6.1"
 
 # Making HTTP requests
-gem "typhoeus", "~> 1.1.2"
+gem "typhoeus", "~> 1.3.0"
 
 # JSON parsing
 gem "multi_json", "~> 1.12.1"
 gem "oj", "~> 2.18.1"
 
 # Database libraries
-gem "mongoid", "~> 6.1.0"
+gem "mongoid", "~> 7.0.12"
 gem "elasticsearch", "~> 2.0.1"
-gem "elasticsearch-persistence", "~> 0.1.9"
+gem "elasticsearch-persistence", "~> 2.0.0"
 
 # Factories for test database data
-gem "factory_girl", "~> 4.8.0"
+gem "factory_girl", "~> 4.8.1"
 
 # Deleting database data between tests.
 gem "database_cleaner", "~> 1.5.3"
@@ -48,16 +48,16 @@ gem "rails_compatible_cookies_utils", "~> 0.1.0"
 gem "addressable", "~> 2.5.0"
 
 # Browser/JavaScript integration tests
-gem "capybara", "~> 2.12.0"
+gem "capybara", "~> 2.13.0"
 # Use fork to fix failure messages:
 # https://github.com/wojtekmach/minitest-capybara/pull/17
 gem "minitest-capybara", "~> 0.8.2", :git => "https://github.com/GUI/minitest-capybara.git"
 
 # Webkit-based driver for capybara
-gem "poltergeist", "~> 1.13.0"
+gem "poltergeist", "~> 1.14.0"
 
 # Take screenshots on capybara test failures
-gem "capybara-screenshot", "~> 1.0.14"
+gem "capybara-screenshot", "~> 1.0.15"
 
 # HTML or XML parsing
 gem "nokogiri", "~> 1.7.0"
