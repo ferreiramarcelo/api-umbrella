@@ -31,9 +31,9 @@ gem "multi_json", "~> 1.12.1"
 gem "oj", "~> 2.18.1"
 
 # Database libraries
-gem "mongoid", "~> 6.1.0"
-gem "elasticsearch", "~> 2.0.1"
-gem "elasticsearch-persistence", "~> 0.1.9"
+gem "mongoid", "~> 7.6.1"
+gem "elasticsearch", "~> 2.0.2"
+gem "elasticsearch-persistence", "~> 2.0.1"
 
 # Factories for test database data
 gem "factory_girl", "~> 4.8.0"
